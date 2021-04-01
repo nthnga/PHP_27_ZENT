@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-    <h3 align="center">Add new user</h3>
+    <h3 align="center">---Add new user---</h3>
     <hr>
         
         <form action="user_add_process.php" method="POST" role="form" enctype="multipart/form-data">

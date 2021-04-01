@@ -7,8 +7,7 @@
 
 
 	//Câu lệnh truy vấn thêm DL
-	// $query = "UPDATE categories SET name = '".$data['name']."', description='".$data['description']."' WHERE id = ".$id;
-    $query = "UPDATE categories SET name = '".$data['name']."',parent_id = '".$data['parent_id']."', description='".$data['description']."' WHERE id = ".$data['id'];
+    $query = "UPDATE categories SET name = '".$data['name']."', description='".$data['description']."' WHERE id = ".$data['id'];
 	echo $query;
 
 	// Thực thi câu lệnh

@@ -25,7 +25,7 @@
 </head>
 <body>
     <div class="container">
-    <h3 align="center">Edit</h3>
+    <h3 align="center">---Edit---</h3>
     <hr>
         
         <form action="user_edit_process.php" method="POST" role="form" enctype="multipart/form-data">

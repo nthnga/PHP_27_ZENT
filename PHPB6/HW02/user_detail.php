@@ -35,7 +35,7 @@
  		 	<p>Creat_at : <?= $users['created_at'] ?></p>
  		 	<div class="row">
  		 		<p class="col-2">Avatar</p><br>
- 		 		<img class="col-10" style="height: 300px; width: 200px" src="<?= $users['avatar'] ?>">
+ 		 		<img class="col-10" style="height: 100px; width: 100px" src="<?= $users['avatar'] ?>">
  		 	</div>
  		</div>
  	</div>

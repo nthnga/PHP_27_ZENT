@@ -42,11 +42,6 @@
             </div>
 
             <div class="form-group">
-                <label for="">Parent_id</label>
-                <input type="hidden" class="form-control" id="" placeholder="" name="parent_id" value="<?= $category['parent_id'] ?>">
-                <input type="text" class="form-control" id="" placeholder="" name="parent_id" value="<?= $category['parent_id'] ?>">
-            </div>
-            <div class="form-group">
                 <label for="">Description</label>
                 <input type="text" class="form-control" id="" placeholder="" name="description" value="<?= $category['description'] ?>">
             </div>

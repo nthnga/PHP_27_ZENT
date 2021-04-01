@@ -41,20 +41,7 @@ while ($row = $result->fetch_assoc()) {
     <div class="container">
         <h3 class="text-center">--- Users ---</h3>
         <a href="user_add.php" class="btn btn-primary">Add New User</a>
-        <?php 
-                if (isset($_COOKIE['cate_delete_true'])) {
-             ?>
-                <div class="alert alert-success">
-                    <strong>Thông báo!</strong> Xóa thành công!
-                </div>
-        <?php } ?>
-        <?php 
-                if (isset($_COOKIE['cate_delete_false'])) {
-             ?>
-                <div class="alert alert-danger">
-                    <strong>Thông báo!</strong> Xóa thất bại!
-                </div>
-        <?php } ?>
+
         <?php echo(isset($_COOKIE['add_msg'])?$_COOKIE['add_msg']:'')?>
         <table class="table">
             <thead>

@@ -11,9 +11,9 @@
     // Trả về 1 bản ghi
     $category = $result->fetch_assoc();
 
-    if ($category['parent_id']=="") {
-    	$category['parent_id']="Danh mục cha";
-    }
+    // if ($category['parent_id']=="") {
+    // 	$category['parent_id']="Danh mục cha";
+    // }
  ?>
  <!DOCTYPE html>
  <html>
@@ -38,7 +38,7 @@
  		 	<p>Description : <?= $category['description'] ?></p>
  		 	<div class="row">
  		 		<p class="col-2">Thumbnail</p><br>
- 		 		<img class="col-10" style="height: 300px; width: 200px" src="<?= $category['thumbnail'] ?>">
+ 		 		<img class="col-10" style="height: 200px; width: 200px" src="<?= $category['thumbnail'] ?>">
  		 	</div>
  		</div>
  	</div>

@@ -53,11 +53,6 @@ while ($row = $result->fetch_assoc()) {
     <!-- Latest compiled and minified JavaScript -->
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
-    <style>
-        #table{
-            width: 100%;
-        }
-    </style>
 </head>
 <body>
     <div class="container">

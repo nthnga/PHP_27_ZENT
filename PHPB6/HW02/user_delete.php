@@ -11,10 +11,10 @@
     $result = $conn->query($query); 
 
     if($result == true){
-		setcookie('cate_delete_true',1,time()+5);
+		setcookie('add_msg',"Xóa thành công!",time()+5);
 		header('Location: user.php');
 	}else{
-		setcookie('cate_delete_false',1,time()+5);
+		setcookie('add_msg',"Xóa thành công!",time()+5);
 		header('Location: user.php');
 	}
 
